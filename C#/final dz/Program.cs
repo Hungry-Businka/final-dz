@@ -1,4 +1,4 @@
-﻿string[] array1 = new string[5] {"abc", "ty", "12679", "Viper", "res"};
+﻿string[] array1 = new string[5] {"abc", "ty", "126379", "Viper", "res"};
 string[] array2 = new string[array1.Length];
 
 void PrintArray(string[] array)
@@ -25,4 +25,9 @@ count++;
 
 SecondArrayWithIF(array1, array2);
 PrintArray(array2);
+
+
+
+
+
 
