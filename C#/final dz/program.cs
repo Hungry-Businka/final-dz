@@ -9,4 +9,17 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-PrintArray(array1);
+void SecondArrayWithIF(string[] array1, string[] array2)
+{
+    int count = 0;
+    for (int i = 0; i < array1.Length; i++)
+    {
+    if(array1[i].Length <= 3)
+        {
+        array2[count] = array1[i];
+        count++;
+        }
+    }
+}
+SecondArrayWithIF(array1, array2);
+PrintArray(array2);
